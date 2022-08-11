@@ -6,31 +6,41 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Max",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "",
+  message: "Changing the future, one step at a time.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/maxhithere",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-spotify",
+      url: "https://open.spotify.com/user/pgq3zde8dei7rp27ywclb4wwy",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fa-discord",
+      url: "https://discord.com/users/676051070308450344",
     },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+    
+    
+   // {
+    //  image: "fa-facebook",
+    //  url: "https://www.facebook.com/hashirshoaeb",
+   // },
+   // {
+   //   image: "fa-instagram",
+   //   url: "https://www.instagram.com/hashirshoaeb/",
+   // },
+   // {
+    //  image: "fa-linkedin",
+    //  url: "https://www.linkedin.com/in/hashirshoaeb/",
+   // },
+   // {
+    //  image: "fa-twitter",
+    //  url: "https://www.twitter.com/hashirshoaeb/",
+   // },
   ],
 };
 
@@ -51,11 +61,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Max. I’m a software developer who develops on the front end & back end. I have created many projects up to this day, and I am still making more! ",
+ // resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -64,8 +74,8 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Recent Projects",
+  show: false,
+  heading: "Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -100,33 +110,34 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Python", value: 40 },
+    { name: "SQL", value: 35 },
+    { name: "Data Structures", value: 38 },
+    { name: "C/C++", value: 20 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "TypeScript", value: 75 },
+    { name: "HTML/CSS", value: 76 },
+    { name: "C#", value: 30 },
+    { name: "Node.js", value: 84 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Collaboration", value: 75 },
+    { name: "Positivity", value: 78 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 85 },
+    { name: "Organization", value: 73 },
+    { name: "Creativity", value: 87 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I am currently looking for ",
   email: "hashirshoaeb@gmail.com",
 };
 
